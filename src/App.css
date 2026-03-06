@@ -54,7 +54,7 @@ button {
     border: none;
     border-radius: 4px;
     background-color:rgb(116, 8, 8);
-    /* background-color: #4a90e2; */
+    width: 100%;
     color: white;
     cursor: pointer;
     font-size: 14px;
@@ -66,13 +66,17 @@ button:hover {
     background-color: rgb(79, 46, 46);
 }
 
-button[type="button"] {
-    background-color: #e74c3c;
+.dynamic-row{
+    display: flex;
+    justify-content: space-between;
+
 }
 
-button[type="button"]:hover {
-    background-color: #c0392b;
+.dynamic-row input{
+    width: auto;
+    margin-right: 10px;
 }
+
 
 .card {
     background: white;
@@ -123,4 +127,10 @@ form p {
     transition: all 0.2s;
 }
 
+.dynamic-textarea h4{
 
+    margin-top: 10px;
+}
+.dynamic-textarea textarea{
+    width: 100%;
+}

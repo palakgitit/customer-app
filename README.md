@@ -70,3 +70,7 @@ Main component that manages the application state and data flow.
 - HTML
 - CSS
 
+## ScreenShot
+
+![customer app](customerApp.png)
+
