@@ -1,16 +1,72 @@
-# React + Vite
+# Customer Feedback & Issue Reporting System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+The Customer Feedback & Issue Reporting System is a React-based front-end application.  
+It allows customers to submit feedback, complaints, bug reports, suggestions, and improvement ideas.
 
-Currently, two official plugins are available:
+The project includes an interactive form where users can enter their feedback.  
+All submitted feedback is shown instantly on a dashboard in a clean card layout, similar to support ticket systems used in SaaS platforms, CRM systems, and e-commerce websites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates real-world form handling concepts used in modern web applications.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Modules
 
-## Expanding the ESLint configuration
+### 1. FeedbackForm.jsx
+Handles the main feedback form.  
+Manages form inputs, events, validation, and submission.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. DynamicList.jsx
+A reusable component used to add dynamic form fields.
+
+### 3. FeedbackList.jsx
+Displays all submitted feedback entries.
+
+### 4. FeedbackCard.jsx
+Represents a single feedback item in a styled card format.
+
+### 5. App.jsx
+Main component that manages the application state and data flow.
+
+---
+
+## Folder Structure
+
+- **customer-feedback-system/**
+  
+  - **src/**
+    - **module/**
+      - FeedbackForm.jsx
+      - DynamicList.jsx
+      - FeedbackList.jsx
+      - FeedbackCard.jsx
+  - App.jsx
+  - main.jsx
+  
+  
+
+---
+
+## What I Learned
+
+- Form handling in React
+- Controlled and uncontrolled components
+- Handling events and updating state
+- Creating dynamic form fields
+- Form validation techniques
+- Using React refs
+- Conditional rendering
+- Component-based project structure
+- Displaying user-generated data
+- Designing clean and simple UI layouts
+
+---
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+
